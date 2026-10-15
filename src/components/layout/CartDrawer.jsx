@@ -41,7 +41,7 @@ function CartDrawer({
           `${item.name} Ã— ${item.quantity} â€” ${
             item.price == null
               ? "Price on Request"
-              : `â‚¹${(item.price * item.quantity).toLocaleString("en-IN")}`
+              : `\u20B9${(item.price * item.quantity).toLocaleString("en-IN")}`
           }`
       )
       .join("\n");
@@ -57,7 +57,7 @@ I would like to place an order for the following products:
 
 ${orderLines}
 
-Subtotal: ${subtotal == null ? "Price on Request" : `â‚¹${subtotal.toLocaleString("en-IN")}`}
+Subtotal: ${subtotal == null ? "Price on Request" : `\u20B9${subtotal.toLocaleString("en-IN")}`}
 
 Customer Details:
 Name:
@@ -244,7 +244,7 @@ Thank you.`
                           <strong>
                             {item.price == null
                               ? "Price on Request"
-                              : `â‚¹${(item.price * item.quantity).toLocaleString("en-IN")}`}
+                              : `\u20B9${(item.price * item.quantity).toLocaleString("en-IN")}`}
                           </strong>
                         </div>
                       </div>
@@ -266,7 +266,7 @@ Thank you.`
                     <strong>
                       {subtotal == null
                         ? "Price on Request"
-                        : `â‚¹${subtotal.toLocaleString("en-IN")}`}
+                        : `\u20B9${subtotal.toLocaleString("en-IN")}`}
                     </strong>
                   </div>
 
