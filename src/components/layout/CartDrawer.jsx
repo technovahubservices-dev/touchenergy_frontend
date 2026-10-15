@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
+﻿import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
@@ -38,10 +38,10 @@ function CartDrawer({
     const orderLines = cartItems
       .map(
         (item) =>
-          `${item.name} × ${item.quantity} — ${
+          `${item.name} Ã— ${item.quantity} â€” ${
             item.price == null
               ? "Price on Request"
-              : `₹${(item.price * item.quantity).toLocaleString("en-IN")}`
+              : `â‚¹${(item.price * item.quantity).toLocaleString("en-IN")}`
           }`
       )
       .join("\n");
@@ -57,7 +57,7 @@ I would like to place an order for the following products:
 
 ${orderLines}
 
-Subtotal: ${subtotal == null ? "Price on Request" : `₹${subtotal.toLocaleString("en-IN")}`}
+Subtotal: ${subtotal == null ? "Price on Request" : `â‚¹${subtotal.toLocaleString("en-IN")}`}
 
 Customer Details:
 Name:
@@ -148,8 +148,7 @@ Thank you.`
                   onClick={() => {
                     onClose();
 
-                    window.location.href =
-                      "/#products";
+                    window.location.href = import.meta.env.BASE_URL + "#products";
                   }}
                 >
                   Explore our products
@@ -245,7 +244,7 @@ Thank you.`
                           <strong>
                             {item.price == null
                               ? "Price on Request"
-                              : `₹${(item.price * item.quantity).toLocaleString("en-IN")}`}
+                              : `â‚¹${(item.price * item.quantity).toLocaleString("en-IN")}`}
                           </strong>
                         </div>
                       </div>
@@ -267,7 +266,7 @@ Thank you.`
                     <strong>
                       {subtotal == null
                         ? "Price on Request"
-                        : `₹${subtotal.toLocaleString("en-IN")}`}
+                        : `â‚¹${subtotal.toLocaleString("en-IN")}`}
                     </strong>
                   </div>
 
@@ -296,6 +295,7 @@ Thank you.`
 }
 
 export default CartDrawer;
+
 
 
 
