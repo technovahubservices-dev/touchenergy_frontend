@@ -154,7 +154,7 @@ function FindYourInverter() {
 
           <p>
             Tell us what you want to keep running and how much of your home
-            you want covered. We'll match you with the closest VOLTERRA
+            you want covered. We'll match you with the closest Touch Energy
             option.
           </p>
         </motion.div>
@@ -365,7 +365,7 @@ function FindYourInverter() {
         </div>
 
         <p className="finder-disclaimer">
-          Product matching shown here is a demonstration of the VOLTERRA
+          Product matching shown here is a demonstration of the Touch Energy
           selection experience. Final inverter selection should be based on
           verified product specifications and actual electrical load
           requirements.
@@ -376,6 +376,7 @@ function FindYourInverter() {
 }
 
 export default FindYourInverter;
+
 
 
 

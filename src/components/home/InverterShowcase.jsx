@@ -48,7 +48,7 @@ function InverterShowcase() {
         >
           <div className="section-label">
             <span>01</span>
-            ABOUT VOLTERRA
+            ABOUT Touch Energy
           </div>
 
           <h2>
@@ -57,7 +57,7 @@ function InverterShowcase() {
           </h2>
 
           <p>
-            VOLTERRA exists to make backup power feel
+            Touch Energy exists to make backup power feel
             simple, intelligent and dependable — keeping
             everyday life moving when the grid goes quiet.
           </p>
@@ -86,11 +86,11 @@ function InverterShowcase() {
               >
                 <img
                   src={import.meta.env.BASE_URL + "images/about/about-main.png"}
-                  alt="VOLTERRA power designed around modern life"
+                  alt="Touch Energy power designed around modern life"
                 />
 
                 <div className="about-volterra-image-overlay">
-                  <span>VOLTERRA</span>
+                  <span>Touch Energy</span>
                   <strong>POWER THAT MOVES LIFE.</strong>
                 </div>
               </motion.div>
@@ -116,7 +116,7 @@ function InverterShowcase() {
               >
                 <img
                   src={import.meta.env.BASE_URL + "images/about/about-detail.png"}
-                  alt="VOLTERRA inverter engineering detail"
+                  alt="Touch Energy inverter engineering detail"
                 />
 
                 <div className="about-volterra-detail-label">
@@ -206,6 +206,7 @@ function InverterShowcase() {
 }
 
 export default InverterShowcase;
+
 
 
 

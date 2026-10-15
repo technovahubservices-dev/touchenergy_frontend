@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useAuth } from "../../context/AuthContext";
 import {
   ArrowUpRight,
   Menu,
@@ -13,7 +14,7 @@ import {
 const navItems = [
   {
     label: "Our Products",
-    href: "/#products",
+    href: "/shop",
   },
   {
     label: "Technology",
@@ -36,6 +37,15 @@ const navItems = [
 function Navbar({ cartCount, onCartOpen }) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { isAuthenticated } = useAuth();
+
+  const displayNavItems = [
+    ...navItems,
+    {
+      label: "My Account",
+      href: "/account",
+    },
+  ];
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -59,16 +69,13 @@ function Navbar({ cartCount, onCartOpen }) {
           <Link
             to="/"
             className="brand"
-            aria-label="VOLTERRA home"
+            aria-label="Touch Energy home"
           >
-            <span className="brand-mark">
-              <span />
-              <span />
-            </span>
-
-            <span className="brand-name">
-              VOLTERRA
-            </span>
+            <img
+              src={`${import.meta.env.BASE_URL}images/brand/touch-energy-logo.png`}
+              alt="Touch Energy"
+              className="brand-logo"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -76,7 +83,7 @@ function Navbar({ cartCount, onCartOpen }) {
             className="desktop-nav"
             aria-label="Primary navigation"
           >
-            {navItems.map((item) => (
+            {displayNavItems.map((item) => (
               <Link
                 key={item.label}
                 to={item.href}
@@ -171,7 +178,7 @@ function Navbar({ cartCount, onCartOpen }) {
                 className="brand-name"
                 onClick={closeMenu}
               >
-                VOLTERRA
+                Touch Energy
               </Link>
 
               <button
@@ -189,7 +196,7 @@ function Navbar({ cartCount, onCartOpen }) {
               className="mobile-nav"
               aria-label="Mobile navigation"
             >
-              {navItems.map((item, index) => (
+              {displayNavItems.map((item, index) => (
                 <motion.div
                   key={item.label}
                   initial={{
@@ -237,3 +244,7 @@ function Navbar({ cartCount, onCartOpen }) {
 }
 
 export default Navbar;
+
+
+
+

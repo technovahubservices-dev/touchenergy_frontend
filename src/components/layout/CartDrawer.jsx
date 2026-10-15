@@ -1,4 +1,4 @@
-﻿import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
@@ -23,33 +23,41 @@ function CartDrawer({
     0
   );
 
-  const subtotal = cartItems.reduce(
-    (total, item) => total + item.price * item.quantity,
-    0
+  const hasUnpricedItems = cartItems.some(
+    (item) => item.price == null
   );
+
+  const subtotal = hasUnpricedItems
+    ? null
+    : cartItems.reduce(
+        (total, item) => total + item.price * item.quantity,
+        0
+      );
 
   const handleCheckout = () => {
     const orderLines = cartItems
       .map(
         (item) =>
-          `${item.name} × ${item.quantity} — ₹${(
-            item.price * item.quantity
-          ).toLocaleString("en-IN")}`
+          `${item.name} × ${item.quantity} — ${
+            item.price == null
+              ? "Price on Request"
+              : `₹${(item.price * item.quantity).toLocaleString("en-IN")}`
+          }`
       )
       .join("\n");
 
     const subject = encodeURIComponent(
-      "VOLTERRA Order Request"
+      "Touch Energy Order Request"
     );
 
     const body = encodeURIComponent(
-      `Hello VOLTERRA Team,
+      `Hello Touch Energy Team,
 
 I would like to place an order for the following products:
 
 ${orderLines}
 
-Subtotal: ₹${subtotal.toLocaleString("en-IN")}
+Subtotal: ${subtotal == null ? "Price on Request" : `₹${subtotal.toLocaleString("en-IN")}`}
 
 Customer Details:
 Name:
@@ -63,7 +71,7 @@ Thank you.`
     );
 
     window.location.href =
-      `mailto:orders@volterra.in?subject=${subject}&body=${body}`;
+      `mailto:sales@touchenergy.in?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -131,7 +139,7 @@ Thank you.`
 
                 <p>
                   Explore our inverter range and add the
-                  right VOLTERRA product to your cart.
+                  right Touch Energy product to your cart.
                 </p>
 
                 <button
@@ -235,11 +243,9 @@ Thank you.`
                           </div>
 
                           <strong>
-                            ₹
-                            {(
-                              item.price *
-                              item.quantity
-                            ).toLocaleString("en-IN")}
+                            {item.price == null
+                              ? "Price on Request"
+                              : `₹${(item.price * item.quantity).toLocaleString("en-IN")}`}
                           </strong>
                         </div>
                       </div>
@@ -258,19 +264,17 @@ Thank you.`
 
                   <div className="cart-subtotal">
                     <span>Subtotal</span>
-
                     <strong>
-                      ₹
-                      {subtotal.toLocaleString(
-                        "en-IN"
-                      )}
+                      {subtotal == null
+                        ? "Price on Request"
+                        : `₹${subtotal.toLocaleString("en-IN")}`}
                     </strong>
                   </div>
 
                   <p className="cart-note">
                     Taxes, delivery and final
                     installation charges will be
-                    confirmed by the VOLTERRA team.
+                    confirmed by the Touch Energy team.
                   </p>
 
                   <Link
@@ -292,6 +296,8 @@ Thank you.`
 }
 
 export default CartDrawer;
+
+
 
 
 

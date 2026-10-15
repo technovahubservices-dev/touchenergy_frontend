@@ -9,28 +9,40 @@ import {
 
 const supportCards = [
   {
-    icon: Wrench,
+    icon: MessageCircle,
     number: "01",
-    title: "INSTALLATION",
+    title: "SALES SUPPORT",
     description:
-      "Get guidance for setting up your VOLTERRA inverter correctly.",
-    action: "Installation help",
+      "Get help with product enquiries, quotations, and choosing the right Touch Energy solution.",
+    action: "Contact sales",
+    href: "mailto:sales@touchenergy.in",
   },
   {
     icon: LifeBuoy,
     number: "02",
-    title: "PRODUCT SUPPORT",
+    title: "TECHNICAL SUPPORT",
     description:
-      "Find help with everyday questions about your VOLTERRA system.",
-    action: "Get product help",
+      "Get assistance with product specifications, operation, and technical questions.",
+    action: "Get technical help",
+    href: "mailto:support@touchenergy.in",
+  },
+  {
+    icon: Wrench,
+    number: "03",
+    title: "INSTALLATION SUPPORT",
+    description:
+      "Contact our team for installation guidance and assistance with your system.",
+    action: "Installation help",
+    href: "mailto:support@touchenergy.in",
   },
   {
     icon: Headphones,
-    number: "03",
-    title: "EXPERT ASSISTANCE",
+    number: "04",
+    title: "AFTER-SALES & WARRANTY",
     description:
-      "Connect with our team when you need more detailed assistance.",
-    action: "Talk to support",
+      "For after-sales assistance and warranty enquiries, contact our support team.",
+    action: "Contact support",
+    href: "mailto:support@touchenergy.in",
   },
 ];
 
@@ -52,17 +64,17 @@ function Support() {
         >
           <div className="section-label support-label">
             <span>06</span>
-            SUPPORT
+            CUSTOMER SUPPORT
           </div>
 
           <h2>
-            Power shouldn't
-            <span>feel complicated.</span>
+            Here when
+            <span>you need us.</span>
           </h2>
 
           <p>
-            From installation to everyday questions, we're here
-            to help you get the most from your VOLTERRA experience.
+            From product enquiries and installation guidance to after-sales
+            and warranty assistance, Touch Energy is here to help.
           </p>
         </motion.div>
 
@@ -74,26 +86,15 @@ function Support() {
               <motion.article
                 className="support-card"
                 key={card.number}
-                initial={{
-                  opacity: 0,
-                  y: 35,
-                }}
-                whileInView={{
-                  opacity: 1,
-                  y: 0,
-                }}
-                viewport={{
-                  once: true,
-                  amount: 0.2,
-                }}
+                initial={{ opacity: 0, y: 35 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
                 transition={{
                   duration: 0.65,
                   delay: index * 0.1,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                whileHover={{
-                  y: -8,
-                }}
+                whileHover={{ y: -8 }}
               >
                 <div className="support-card-top">
                   <span>{card.number}</span>
@@ -108,7 +109,7 @@ function Support() {
                   <p>{card.description}</p>
                 </div>
 
-                <a href="#support" className="support-card-link">
+                <a href={card.href} className="support-card-link">
                   {card.action}
                   <ArrowUpRight size={16} />
                 </a>
@@ -122,10 +123,7 @@ function Support() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.25 }}
-          transition={{
-            duration: 0.7,
-            delay: 0.15,
-          }}
+          transition={{ duration: 0.7, delay: 0.15 }}
         >
           <div className="support-contact-icon">
             <MessageCircle size={22} strokeWidth={1.5} />
@@ -133,18 +131,20 @@ function Support() {
 
           <div className="support-contact-copy">
             <span>NEED MORE HELP?</span>
-            <h3>Let's keep your power moving.</h3>
+            <h3>Talk to the Touch Energy team.</h3>
             <p>
-              Our support team is ready to help with your VOLTERRA
-              experience.
+              Email support@touchenergy.in. Our standard response time is
+              1–2 business days.
             </p>
           </div>
 
           <a
-            href="mailto:support@volterra.in"
+            href="https://wa.me/919345952875"
             className="support-contact-button"
+            target="_blank"
+            rel="noreferrer"
           >
-            Contact support
+            WhatsApp us
             <ArrowUpRight size={17} />
           </a>
         </motion.div>
@@ -154,6 +154,3 @@ function Support() {
 }
 
 export default Support;
-
-
-

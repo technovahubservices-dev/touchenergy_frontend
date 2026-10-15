@@ -1,0 +1,118 @@
+﻿const handlePlaceOrder = async () => {
+  if (!validate() || isSubmitting) return;
+
+  if (cartItems.length === 0) return;
+
+  setIsSubmitting(true);
+  setSubmitError("");
+
+  // Open a blank tab immediately so the browser does not block Gmail later.
+  const gmailWindow = window.open("about:blank", "_blank");
+
+  try {
+    const orderData = {
+      customerEmail: form.email.trim(),
+      items: cartItems.map((item) => ({
+        productId: item.id,
+        quantity: item.quantity,
+      })),
+      shippingAddress: {
+        name: form.name.trim(),
+        phone: form.phone.trim(),
+        addressLine1: form.address.trim(),
+        addressLine2: "",
+        city: form.city.trim(),
+        state: form.state.trim(),
+        postalCode: form.pin.trim(),
+        country: "India",
+      },
+      paymentMethod: "BANK_TRANSFER",
+    };
+
+    const result = await createOrderRequest(orderData);
+    const savedOrder = result.order;
+
+    if (!savedOrder?._id) {
+      throw new Error("The server did not return a saved order reference.");
+    }
+
+    const orderItems = cartItems
+      .map((item) =>
+        `${item.name} x ${item.quantity} - ${
+          item.price == null
+            ? "Price on Request"
+            : `INR ${(item.price * item.quantity).toLocaleString("en-IN")}`
+        }`
+      )
+      .join("\n");
+
+    const emailBody = `Hello Touch Energy Team,
+
+I would like to place an order.
+
+ORDER REQUEST REFERENCE
+-----------------------
+${savedOrder._id}
+
+CUSTOMER DETAILS
+----------------
+Name: ${form.name}
+Email: ${form.email}
+Phone: ${form.phone}
+
+DELIVERY ADDRESS
+----------------
+${form.address}
+${form.city}, ${form.state} - ${form.pin}
+
+PAYMENT TERMS
+-------------
+100% advance payment against Proforma Invoice (PI).
+Accepted methods: Bank Transfer, NEFT, RTGS, IMPS and UPI.
+Payment instructions to be provided by Touch Energy.
+
+ORDER DETAILS
+-------------
+${orderItems}
+
+Subtotal: ${
+      subtotal == null
+        ? "Price on Request"
+        : `INR ${subtotal.toLocaleString("en-IN")}`
+    }
+
+Please issue a Proforma Invoice and confirm product
+availability, freight charges, delivery timeline and
+payment instructions.
+
+I understand that the order will be processed after
+confirmation and receipt of payment.
+
+Thank you,
+${form.name}`;
+
+    const gmailUrl = new URL("https://mail.google.com/mail/");
+    gmailUrl.searchParams.set("view", "cm");
+    gmailUrl.searchParams.set("fs", "1");
+    gmailUrl.searchParams.set("to", "sales@touchenergy.in");
+    gmailUrl.searchParams.set(
+      "su",
+      `Touch Energy Order Request - ${form.name}`
+    );
+    gmailUrl.searchParams.set("body", emailBody);
+
+    if (gmailWindow) {
+      gmailWindow.location.href = gmailUrl.toString();
+    } else {
+      window.location.href = gmailUrl.toString();
+    }
+  } catch (error) {
+    if (gmailWindow) gmailWindow.close();
+
+    setSubmitError(
+      error.message || "Could not save your order request. Please try again."
+    );
+  } finally {
+    setIsSubmitting(false);
+  }
+};

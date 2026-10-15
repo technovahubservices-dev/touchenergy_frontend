@@ -9,21 +9,26 @@ function ContactUs() {
 
     const form = new FormData(event.currentTarget);
 
-    const name = form.get("name");
-    const email = form.get("email");
-    const phone = form.get("phone");
-    const message = form.get("message");
+    const name = form.get("name") || "";
+    const email = form.get("email") || "";
+    const phone = form.get("phone") || "";
+    const message = form.get("message") || "";
 
-    const subject = encodeURIComponent(
-      `VOLTERRA Contact Request - ${name}`
-    );
+    const subject = `Touch Energy Contact Request - ${name}`;
+    const body =
+      `Name: ${name}\n` +
+      `Email: ${email}\n` +
+      `Phone: ${phone}\n\n` +
+      `Message:\n${message}`;
 
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
-    );
+    const gmailUrl = new URL("https://mail.google.com/mail/");
+    gmailUrl.searchParams.set("view", "cm");
+    gmailUrl.searchParams.set("fs", "1");
+    gmailUrl.searchParams.set("to", "support@touchenergy.in");
+    gmailUrl.searchParams.set("su", subject);
+    gmailUrl.searchParams.set("body", body);
 
-    window.location.href =
-      `mailto:support@volterra.in?subject=${subject}&body=${body}`;
+    window.open(gmailUrl.toString(), "_blank", "noopener,noreferrer");
 
     setSubmitted(true);
   };
@@ -39,7 +44,7 @@ function ContactUs() {
             <span />
             <span />
           </span>
-          <span>VOLTERRA</span>
+          <span>Touch Energy</span>
         </a>
 
         <a href={import.meta.env.BASE_URL + ""} className="contact-back">
@@ -51,7 +56,7 @@ function ContactUs() {
       <section className="contact-hero">
         <div className="contact-label">
           <span>06</span>
-          CONTACT VOLTERRA
+          CONTACT Touch Energy
         </div>
 
         <h1>
@@ -61,7 +66,7 @@ function ContactUs() {
         </h1>
 
         <p>
-          Have a question about a VOLTERRA inverter, installation,
+          Have a question about a Touch Energy inverter, installation,
           support, or finding the right power solution? Our team is
           here to help.
         </p>
@@ -76,7 +81,7 @@ function ContactUs() {
 
           <div className="contact-info-list">
             <a
-              href="mailto:support@volterra.in"
+              href="mailto:support@touchenergy.in"
               className="contact-info-card"
             >
               <div className="contact-info-icon">
@@ -85,14 +90,14 @@ function ContactUs() {
 
               <div>
                 <span>EMAIL</span>
-                <strong>support@volterra.in</strong>
+                <strong>support@touchenergy.in</strong>
               </div>
 
               <ArrowUpRight size={18} />
             </a>
 
             <a
-              href="tel:+919999999999"
+              href="tel:+914132969766"
               className="contact-info-card"
             >
               <div className="contact-info-icon">
@@ -101,7 +106,7 @@ function ContactUs() {
 
               <div>
                 <span>PHONE</span>
-                <strong>+91 99999 99999</strong>
+                <strong>0413-2969766</strong>
               </div>
 
               <ArrowUpRight size={18} />
@@ -114,13 +119,45 @@ function ContactUs() {
 
               <div>
                 <span>LOCATION</span>
-                <strong>Puducherry, India</strong>
+                <strong>No. 70, Chinna Veerampattinam Road, Ariyankuppam, Puducherry - 605007, India</strong>
               </div>
             </div>
           </div>
 
+          <div className="contact-map-section">
+            <div className="contact-map-heading">
+              <span>FIND US</span>
+              <h3>Visit Touch Energy</h3>
+              <p>
+                No. 70, Chinna Veerampattinam Road, Ariyankuppam,
+                Puducherry - 605007, India
+              </p>
+            </div>
+
+            <div className="contact-map">
+              <iframe
+                title="Touch Energy Technologies location"
+                src="https://maps.google.com/maps?q=No.%2070%2C%20Chinna%20Veerampattinam%20Road%2C%20Ariyankuppam%2C%20Puducherry%20605007%2C%20India&output=embed"
+                width="100%"
+                height="320"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+
+            <a
+              className="contact-map-directions"
+              href="https://www.google.com/maps/search/?api=1&query=No.%2070%2C%20Chinna%20Veerampattinam%20Road%2C%20Ariyankuppam%2C%20Puducherry%20605007%2C%20India"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Directions <ArrowUpRight size={18} />
+            </a>
+          </div>
           <div className="contact-note">
-            <span>VOLTERRA SUPPORT</span>
+            <span>Touch Energy SUPPORT</span>
             <p>
               For product enquiries, installation assistance and
               general support, send us a message and our team will
@@ -132,7 +169,7 @@ function ContactUs() {
         <div className="contact-form-wrap">
           <div className="contact-form-top">
             <span>01 / MESSAGE</span>
-            <span>VOLTERRA</span>
+            <span>Touch Energy</span>
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
@@ -189,10 +226,14 @@ function ContactUs() {
 
       <footer className="contact-footer">
         <span>POWER THAT MOVES LIFE.</span>
-        <span>© {new Date().getFullYear()} VOLTERRA</span>
+        <span>© {new Date().getFullYear()} Touch Energy</span>
       </footer>
     </main>
   );
 }
 
 export default ContactUs;
+
+
+
+

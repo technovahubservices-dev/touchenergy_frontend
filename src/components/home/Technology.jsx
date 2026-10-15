@@ -66,7 +66,7 @@ function Technology() {
 
           <p>
             Thoughtful technology works quietly in the background,
-            helping VOLTERRA deliver a refined and dependable everyday
+            helping Touch Energy deliver a refined and dependable everyday
             power experience.
           </p>
         </motion.div>
@@ -109,7 +109,7 @@ function Technology() {
             <div className="technology-video-shade" />
 
             <div className="technology-video-top">
-              <span>VOLTERRA TECHNOLOGY</span>
+              <span>Touch Energy TECHNOLOGY</span>
               <span>ENGINEERED / 01</span>
             </div>
 
@@ -200,7 +200,7 @@ function Technology() {
           }}
         >
           <div>
-            <span>THE VOLTERRA APPROACH</span>
+            <span>THE Touch Energy APPROACH</span>
 
             <strong>
               Advanced technology.
@@ -222,6 +222,7 @@ function Technology() {
 }
 
 export default Technology;
+
 
 
 

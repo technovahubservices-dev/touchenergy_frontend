@@ -1,0 +1,960 @@
+
+==========================================================================================
+FILE: Touch_12.8V_100Ah_TLF-1208100_Datasheet_2.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / TLF-1208100
+H O M E P R O S E R I E S · 1 2 V L I F E P O ₄ B A T T E R Y
+12.8 V
+100 Ah
+Deep-cycle lithium energy storage · Model
+TLF-1208100
+A 1.28 kWh LiFePO₄ battery pack built on 3.2 V
+100 Ah prismatic cells (4S1P) and a smart BMS
+with cell balancing and multi-protocol
+communication. Made for home inverters,
+rooftop solar and power backup in homes, shops,
+offices and godowns.
+LiFe PO₄ Pris m atic 	4S 1P 	Sm art BM S
+C AN · RS485 · UART · BT 	M S C as in g
+12.8 V
+N OM I N A L V OL T A G E
+100 Ah
+R A T E D C A PA C I T Y
+1.28 kWh
+N OM I N A L E N E R G Y
+≥2500
+C YC L E S @ 9 0 % DOD
+B U I L T F O R D E E P , D A I L Y C Y C L I N G
+Prismatic LiFePO₄ cells
+3.2 V 100 Ah cells in a 4S 1P layout
+— a stable, cobalt-free chemistry.
+Smart BMS
+Over-charge, deep-discharge and
+short-circuit protection with active
+cell balancing.
+Multi-protocol comms
+CAN, RS 485, UART and Bluetooth for
+inverter integration and
+monitoring.
+High discharge capability
+100 A continuous (1.28 kW) and
+150 A pulse (2 s) for demanding
+loads.
+Fast recharge
+S upports 50 A rapid charging
+(0.5C) and 1.15 kWh usable energy
+at 90% DoD.
+Rugged steel casing
+Powder-coated MS enclosure, 260
+× 220 × 210 mm, 13 kg.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/2
+
+-- 1 of 2 --
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / TLF-1208100
+Technical Specifications 	12 .8 V 100 Ah LiFePO₄ Battery Pack · TLF-12 08100
+@ 9 0 % DoD
+E L E C T R I C A L P E R F O R M A N C E
+Module configuration 	4 S 1P
+Nominal voltage 	12.8 VDC
+Operating voltage range 11 – 14 .6 VDC
+Installed energy 	1.28 kWh
+Usable energy 	1.15 kWh
+0 .2C
+0 .5C
+@ 2 s
+Rated charge current 	20 A
+Rapid charge current 	50 A
+Rated discharge current 100 A
+Pulse discharge current 	150 A
+Rated discharge power 	1.28 kW
+M E C H A N I C A L
+Cell 	Prismat ic, 3.2 V – 100 Ah
+Housing material 	MS (mild st eel) casing
+Dimensions (L × B × H) 	260 × 220 × 210 mm
+Dimension tolerance 	±5 mm
+Weight 	13 kg ±5%
+Terminal 	C-t erminal co nnect o r
+IP grade 	NA
+O P E R A T I N G T E M P E R A T U R E
+Charging 	0 – 4 5 ° C
+Discharging 	0 – 55 ° C
+B M S & C O M M U N I C A T I O N
+Protection 	Deep discharge & o ver-charge
+Short circuit 	Pro t ect ed
+Cell management 	Cell balancing
+Temperature 	T emperat ure co mpensat io n
+Communication 	CAN / RS4 85 / UART / Bluet o o t h
+C Y C L E L I F E
+Cycle life 	≥ 2,500 cycles
+Test conditions 	90% Do D · 25 ±3 ° C · 0.2C / 1C
+D I M E N S I O N S
+220 m m (B) 	260 m m (L)
+210 m m (H)
+FRO NT 	SIDE
+S T O R A G E C O N D I T I O N S
+DU R A T I ON 	T E M PE R A T U R E
+Up to 1 year 	−2 0 t o 2 5 °C
+Up to 6 months 	2 5 t o 35 °C
+Up to 3 months 	35 t o 4 5 °C
+Less than 1 week 	4 5 t o 60 °C
+Store at 50 ±5% SOC, h u m idity < 60 ±25% RH, n on -con den sin g.
+P R O D U C T & S A F E T Y N O T E
+Use on ly with a com patible LiFePO₄ ch arger / in verter an d with in th e
+specified operatin g lim its.
+Fin al produ ct certification an d tran sport com plian ce depen d on th e
+exact produ ction con figu ration .
+Specification s an d warran ty con dition s m ay vary with load profile
+an d operatin g con dition s.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/2
+
+-- 2 of 2 --
+
+
+
+==========================================================================================
+FILE: Touch_12.8V_200Ah_TLF-1208200_Datasheet.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / TLF-1208200
+H O M E P R O S E R I E S · 1 2 V L I F E P O ₄ B A T T E R Y
+12.8 V
+200 Ah
+Deep-cycle lithium energy storage · Model
+TLF-1208200
+A 2.56 kWh LiFePO₄ battery pack built on 3.2 V
+100 Ah prismatic cells (4S2P) and a smart BMS
+with cell balancing and multi-protocol
+communication. Made for home inverters,
+rooftop solar and power backup in homes, shops,
+offices and godowns.
+LiFe PO₄ Pris m atic 	4S 2P 	Sm art BM S
+C AN · RS485 · UART · BT 	M S C as in g
+12.8 V
+N OM I N A L V OL T A G E
+200 Ah
+R A T E D C A PA C I T Y
+2.56 kWh
+N OM I N A L E N E R G Y
+≥2500
+C YC L E S @ 9 0 % DOD
+B U I L T F O R D E E P , D A I L Y C Y C L I N G
+Prismatic LiFePO₄ cells
+3.2 V 100 Ah cells in a 4S 2P layout
+— a stable, cobalt-free chemistry.
+Smart BMS
+Over-charge, deep-discharge and
+short-circuit protection with active
+cell balancing.
+Multi-protocol comms
+CAN, RS 485, UART and Bluetooth for
+inverter integration and
+monitoring.
+High discharge capability
+100 A continuous (1.28 kW) and
+150 A pulse (2 s) for demanding
+loads.
+Fast recharge
+S upports 50 A rapid charging
+(0.25C) and 2.30 kWh usable
+energy at 90% DoD.
+Rugged steel casing
+Powder-coated MS enclosure, 370 ×
+270 × 200 mm, 26 kg.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/2
+
+-- 1 of 2 --
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / TLF-1208200
+Technical Specifications 	12 .8 V 2 00 Ah LiFePO₄ Battery Pack · TLF-12 082 00
+@ 9 0 % DoD
+E L E C T R I C A L P E R F O R M A N C E
+Module configuration 	4 S 2P
+Nominal voltage 	12.8 VDC
+Operating voltage range 11 – 14 .6 VDC
+Installed energy 	2.56 kWh
+Usable energy 	2.30 kWh
+0 .1C
+0 .25C
+@ 2 s
+Rated charge current 	20 A
+Rapid charge current 	50 A
+Rated discharge current 100 A
+Pulse discharge current 	150 A
+Rated discharge power 	1.28 kW
+M E C H A N I C A L
+Cell 	Prismat ic, 3.2 V – 100 Ah
+Housing material 	MS (mild st eel) casing
+Dimensions (L × B × H) 	37 0 × 27 0 × 200 mm
+Dimension tolerance 	±5 mm
+Weight 	26 kg ±5%
+Terminal 	C-t erminal co nnect o r
+IP grade 	NA
+O P E R A T I N G T E M P E R A T U R E
+Charging 	0 – 4 5 ° C
+Discharging 	0 – 55 ° C
+B M S & C O M M U N I C A T I O N
+Protection 	Deep discharge & o ver-charge
+Short circuit 	Pro t ect ed
+Cell management 	Cell balancing
+Temperature 	T emperat ure co mpensat io n
+Communication 	CAN / RS4 85 / UART / Bluet o o t h
+C Y C L E L I F E
+Cycle life 	≥ 2,500 cycles
+Test conditions 	90% Do D · 25 ±3 ° C · 0.2C / 1C
+D I M E N S I O N S
+270 mm (B) 	370 mm (L)
+200 mm (H)
+FRO NT 	SIDE
+S T O R A G E C O N D I T I O N S
+DU R A T I ON 	T E M PE R A T U R E
+Up to 1 year 	−2 0 t o 2 5 °C
+Up to 6 months 	2 5 t o 35 °C
+Up to 3 months 	35 t o 4 5 °C
+Less than 1 week 	4 5 t o 60 °C
+Store at 50 ±5% SOC, h u m idity < 60 ±25% RH, n on -con den sin g.
+P R O D U C T & S A F E T Y N O T E
+Use on ly with a com patible LiFePO₄ ch arger / in verter an d with in th e
+specified operatin g lim its.
+Fin al produ ct certification an d tran sport com plian ce depen d on th e
+exact produ ction con figu ration .
+Specification s an d warran ty con dition s m ay vary with load profile
+an d operatin g con dition s.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/2
+
+-- 2 of 2 --
+
+
+
+==========================================================================================
+FILE: Touch_24V_100Ah_TLF-2408100_Datasheet.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / TLF-2408100
+H O M E P R O S E R I E S · 2 4 V L I F E P O ₄ B A T T E R Y
+25.6 V
+100 Ah
+Deep-cycle lithium energy storage · Model
+TLF-2408100
+A 2.56 kWh LiFePO₄ battery pack built on 3.2 V
+100 Ah prismatic cells (8S1P) and a smart BMS
+with cell balancing and multi-protocol
+communication. Made for home inverters,
+rooftop solar and power backup in homes, shops,
+offices and godowns.
+LiFe PO₄ Pris m atic 	8S 1P 	Sm art BM S
+C AN · RS485 · UART · BT 	M S C as in g
+25.6 V
+N OM I N A L V OL T A G E
+100 Ah
+R A T E D C A PA C I T Y
+2.56 kWh
+N OM I N A L E N E R G Y
+≥2500
+C YC L E S @ 9 0 % DOD
+B U I L T F O R D E E P , D A I L Y C Y C L I N G
+Prismatic LiFePO₄ cells
+3.2 V 100 Ah cells in a 8S 1P layout
+— a stable, cobalt-free chemistry.
+Smart BMS
+8S 100 A S mart BMS with over-
+charge, deep-discharge and
+short-circuit protection and cell
+balancing.
+Multi-protocol comms
+CAN, RS 485, UART and Bluetooth for
+inverter integration and
+monitoring.
+High discharge capability
+100 A continuous (2.56 kW) and
+150 A pulse (2 s) for demanding
+loads.
+Fast recharge
+S upports 50 A rapid charging
+(0.5C) and 2.30 kWh usable energy
+at 90% DoD.
+Rugged steel casing
+Powder-coated MS enclosure, 370 ×
+270 × 200 mm, 26 kg.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/2
+
+-- 1 of 2 --
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / TLF-2408100
+Technical Specifications 	2 5.6 V 100 Ah LiFePO₄ Battery Pack · TLF-2 408100
+@ 9 0 % DoD
+E L E C T R I C A L P E R F O R M A N C E
+Module configuration 	8S 1P
+Nominal voltage 	25.6 VDC
+Operating voltage range 22 – 29.2 VDC
+Installed energy 	2.56 kWh
+Usable energy 	2.30 kWh
+0 .2C
+0 .5C
+@ 2 s
+Rated charge current 	20 A
+Rapid charge current 	50 A
+Rated discharge current 100 A
+Pulse discharge current 	150 A
+Rated discharge power 	2.56 kW
+M E C H A N I C A L
+Cell 	Prismat ic, 3.2 V – 100 Ah
+Housing material 	MS (mild st eel) casing
+Dimensions (L × B × H) 	37 0 × 27 0 × 200 mm
+Dimension tolerance 	±5 mm
+Weight 	26 kg ±5%
+Terminal 	C-t erminal co nnect o r
+IP grade 	NA
+O P E R A T I N G T E M P E R A T U R E
+Charging 	0 – 4 5 ° C
+Discharging 	0 – 55 ° C
+B M S & C O M M U N I C A T I O N
+BMS 	8S 100 A Smart BMS
+Protection 	Deep discharge & o ver-charge
+Short circuit 	Pro t ect ed
+Cell management 	Cell balancing
+Temperature 	T emperat ure co mpensat io n
+Communication 	CAN / RS4 85 / UART / Bluet o o t h
+C Y C L E L I F E
+Cycle life 	≥ 2,500 cycles
+Test conditions 	90% Do D · 25 ±3 ° C · 0.2C / 1C
+D I M E N S I O N S
+270 mm (B) 	370 mm (L)
+200 mm (H)
+FRO NT 	SIDE
+S T O R A G E C O N D I T I O N S
+DU R A T I ON 	T E M PE R A T U R E
+Up to 1 year 	−2 0 t o 2 5 °C
+Up to 6 months 	2 5 t o 35 °C
+Up to 3 months 	35 t o 4 5 °C
+Less than 1 week 	4 5 t o 60 °C
+Store at 50 ±5% SOC, h u m idity < 60 ±25% RH, n on -con den sin g.
+P R O D U C T & S A F E T Y N O T E
+Use on ly with a com patible LiFePO₄ ch arger / in verter an d with in th e
+specified operatin g lim its.
+Fin al produ ct certification an d tran sport com plian ce depen d on th e
+exact produ ction con figu ration .
+Specification s an d warran ty con dition s m ay vary with load profile
+an d operatin g con dition s.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/2
+
+-- 2 of 2 --
+
+
+
+==========================================================================================
+FILE: Touch_EnergyBox1000_Datasheet_1.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / Energy Box 1000
+H O M E P R O S E R I E S
+Energy Box
+1000
+Integrated Lithium Power Backup System
+A pure sine wave inverter and a 1.28 kWh LiFePO₄ battery
+in one slim, wall-ready enclosure. Energy Box 1000
+keeps lights, fans, Wi-Fi and essential appliances
+running through outages — with no acid, no topping-
+up and no separate battery trolley.
+Pu re Sin e Wave 	LiFe PO₄ 	Blu e tooth BM S
+Z e ro M ain te n an ce
+5 YE AR
+BAT T E R Y
+W AR R AN T Y 	3 YE AR
+I N VE R T E R
+W AR R AN T Y
+1100 VA
+I N V E R T E R C A PA C I T Y
+900 W
+R A T E D OU T PU T POW E R
+3000 W
+SU R G E POW E R
+1.28 kWh
+BA T T E R Y E N E R G Y
+E N G I N E E R E D F O R E V E R Y D A Y R E L I A B I L I T Y
+Pure sine wave output
+Clean, grid-quality AC for sensitive
+electronics, motors and fans.
+Low-frequency toroidal design
+Robust transformer-based inverter
+with 3000 W surge headroom for
+start-up loads.
+4-mode Boost & Buck AVR
+Automatic voltage regulation
+corrects both high and low mains
+voltage.
+LiFePO₄ chemistry
+Thermally stable 12.8 V 100 Ah
+battery rated for ≥2500 cycles*.
+120 A Smart BMS
+Cell-level protection with Bluetooth
+monitoring from your phone.
+Zero maintenance
+S ealed lithium system — no
+distilled water, no acid fumes, no
+terminals to clean.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/2
+
+-- 1 of 2 --
+
+P R O D U C T D A T A S H E E T 	Home Pro S eries / Energy Box 1000
+Technical Specifications 	Energy Box 1000 · Integrated Lithium Power Backup S ystem
+I N V E R T E R
+Inverter capacity 	1100 VA
+Rated output power 	900 W
+Surge power 	3000 W
+Output waveform 	Pure sine wave
+Inverter technology 	Lo w-frequency, t o ro idal
+t ransfo rmer
+Voltage stabilisation 	Bo o st & Buck AVR, 4 -mo de
+B A T T E R Y
+Battery type 	Lit hium
+Chemistry 	LiFePO₄ (LFP)
+Nominal voltage 	12.8 V
+Rated capacity 	100 Ah
+Nominal energy 	1280 Wh
+Cycle life 	≥ 2500 cycles*
+C H A R G I N G & B M S
+Charging technology 	Int elligent charging syst em
+Charging current 	20 A
+Battery management 	120 A Smart BMS
+Continuous discharge 	100 A
+BMS communication 	Bluet o o t h mo nit o ring
+P R O T E C T I O N
+Overcharge pro t ect io n
+Deep discharge pro t ect io n
+Sho rt circuit pro t ect io n
+Overlo ad pro t ect io n
+Over-t emperat ure pro t ect io n
+I N T E R F A C E & G E N E R A L
+Display 	LCD + LED indicat o rs
+Maintenance 	Maint enance-free
+Application 	Ho me, o ffice & sho p
+Typical use 	Essent ial lo ads & backup
+po wer
+Brand / Series 	T o uch Energy / Ho me Pro
+W A R R A N T Y
+Battery 	5 years
+Inverter 	3 years
+S Y S T E M A R C H I T E C T U R E
+Mains
+AC input
+E N E R G Y B O X 1 0 0 0
+4-Mode AVR
+Boos t & Buck
+Inverter
+1100 VA · Pure s ine
+LiFePO₄ 12.8 V 100 Ah
+120 A Smart BMS · 20 A charging
+Blue tooth monitoring
+Loads
+≤ 900 W
+I N D I C A T I V E B A C K U P T I M E †
+L OA D E X A M PL E 	BA CK U P
+100 W LED lights, 2 fans, Wi-Fi router 	≈ 9 h 50 min
+250 W Lights, fans, TV, laptop 	≈ 3 h 55 min
+500 W Lights, fans, TV, small refrigerator 	≈ 2 h 00 min
+900 W Full rated load 	≈ 1 h 05 min
+T E C H N I C A L N O T E S
+Battery en ergy is based on n om in al battery voltage × rated capacity.
+Actu al backu p tim e depen ds on con n ected load, power factor,
+battery con dition , tem peratu re an d operatin g con dition s.
+Th e in tegrated system is in ten ded to operate with in th e specified
+in verter an d battery lim its.
+* Cycle life an d warran ty valu es are su bject to th e term s of th e
+Tou ch En ergy com m ercial warran ty.
+† Calcu lated estim ate assu m in g 9 0% u sable battery en ergy an d
+85% con version efficien cy at resistive load; for gu idan ce on ly.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/2
+
+-- 2 of 2 --
+
+
+
+==========================================================================================
+FILE: Touch_STACK20_6kW_20kWh_Datasheet_3.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Energy S torage S ystem / STACK20
+S I N G L E - P H A S E H Y B R I D E S S
+STACK20
+6 kW Hybrid Inverter + 20.48 kWh
+LiFePO₄ Battery System
+A complete, pre-integrated energy storage
+system: a 6 kW single-phase hybrid inverter,
+four 5.12 kWh Talis 5 LFP battery modules
+and DC / PV protection, housed in one
+lockable cabinet. Built for solar self-
+consumption and whole-premises backup
+in homes and small businesses.
+6 kW Hybrid 	20.48 kWh LFP
+2 M PPT · 9.6 kW PV 	Wi-Fi · RS485 · C AN
+6 kW
+H YBR I D I N V E R T E R
+20.48 kWh
+N OM I N A L BA T T E R Y
+E N E R G Y
+4 × Talis 5
+5 . 1 2 K W H L F P M ODU L E S
+51.2 V
+4 0 0 A H BA T T E R Y BA N K
+P R O D U C T H I G H L I G H T S
+Integrated design
+Hybrid inverter, four battery
+modules and DC / PV protection in
+a single, pre-wired cabinet.
+20 kWh-class storage
+Four 51.2 V 100 Ah Talis 5 LFP
+modules in parallel — 20.48 kWh
+nominal energy.
+Smart battery management
+Individual BMS in every module
+with CAN and RS 485 / Modbus
+communication for inverter link
+and parallel operation.
+Hybrid & backup operation
+PV self-consumption, grid-
+connected and backup / off-grid
+modes with 2× surge for 10 s.
+Service-friendly
+Front-access battery modules and
+a dedicated electrical and
+protection section.
+STACK platform
+Clean, organised cabinet
+architecture for a neat, repeatable
+ES S installation.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/3
+
+-- 1 of 3 --
+
+P R O D U C T D A T A S H E E T 	Energy S torage S ystem / STACK20
+Technical Specifications 	S TACK2 0 · 6 kW hybrid inverter + 2 0.48 kWh LFP battery system
+S Y S T E M
+S ystem type 	Sing le-pha se hybrid ESS
+Rated inverter output 	6 kW
+Battery nominal energy 	2 0.4 8 kWh
+Battery bank 	51.2 V, 4 00 Ah
+Battery chemistry 	LiFePO₄ (LFP)
+Architecture 	4 mod ules in pa ra llel + hybrid
+invert er
+Operating modes 	Self-consumpt ion, g rid -t ied ,
+ba ckup / off-g rid †
+Applications 	Resid ent ia l & sma ll commercia l
+H Y B R I D I N V E R T E R · 6 K W
+Rated AC input / output
+power
+6,000 W
+Max. AC apparent power 	6,600 VA
+Rated AC current 	2 6.1 A
+Max. AC current 	2 8.7 A
+Max. continuous AC pass-
+through
+4 0 A
+Off-grid peak power 	2 × ra t ed , 10 s
+AC nominal voltage /
+frequency
+2 3 0 V / 50 Hz
+THDi 	< 3 % of nomina l power
+Battery voltage range 	4 0 – 60 V
+Max. charge / discharge
+current
+100 A
+Max. PV input power 	9,600 W
+Max. PV access power 	12 ,000 W
+Max. PV input voltage 	500 V
+MPPT voltage range 	150 – 4 2 5 V
+MPPT trackers / strings 	2 / 1 + 1
+Max. PV operating current 3 0 A / 2 8.7 A
+Max. efficiency 	97 .6%
+MPPT efficiency 	> 99%
+Communication 	Wi-Fi, RS4 85, CAN
+Display 	LCD
+Ingress protection 	IP65
+Operating temperature 	−4 0 t o +60 °C (d era t ing > 4 5 °C)
+Cooling 	Na t ura l convect ion
+B A T T E R Y · T A L I S 5 M O D U L E S
+Module 	T a lis 5 · 51.2 V / 100 Ah / 5.12 kWh
+Cell configuration 	3 .2 V 100 Ah LFP · 16S1P per
+mod ule
+Number of modules 	4 , in pa ra llel
+S ystem capacity 	4 00 Ah @ 51.2 V
+S ystem nominal energy 	2 0.4 8 kWh
+Usable energy 	≈ 16.4 kWh @ 80% DoD
+Charge cut-off voltage 	58.4 V per mod ule
+Discharge cut-off voltage 4 4 V per mod ule
+Max. charge current 	Up t o 100 A per mod ule (set t a ble)
+Continuous discharge
+current
+Up t o 100 A per mod ule (set t a ble)
+Cycle life 	≥ 2 ,500 cycles @ 80% DoD*
+Communication 	CAN, RS4 85 / Mod bus
+Module dimensions 	4 80 × 4 82 × 13 7 mm
+Module weight 	≈ 3 8.5 kg
+Installation 	Ra ck-mount ed insid e ca binet
+P R O T E C T I O N
+Battery (BMS ) 	Over / und er-volt a g e, over-
+cha rg e a nd over-d ischa rg e
+current , cha rg e-current limit ing ,
+short circuit , overloa d
+Inverter 	DC reverse pola rit y, AC over-
+current , AC over-volt a g e, over-
+t empera t ure, short circuit , DC-
+component monit oring , a nt i-
+isla nd ing , resid ua l-current
+d et ect ion†
+C O M M U N I C A T I O N
+Battery 	CAN / RS4 85 (Mod bus)
+Inverter 	Wi-Fi / RS4 85 / CAN
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/3
+
+-- 2 of 3 --
+
+P R O D U C T D A T A S H E E T 	Energy S torage S ystem / STACK20
+Inside STACK20 	Pre-integrated battery, inverter and protection sections
+1 Battery section
+4 × Talis 5 LFP m odu les, 51.2
+V 100 Ah each , rack-
+m ou n ted with fron t access
+2 Hybrid inverter
+6 kW sin gle-ph ase h ybrid
+in verter with ON/OFF an d PV
+isolator switch
+3 DC / PV protection
+Dedicated protection an d
+wirin g section with DC
+bu sbars
+4 Ventilation
+Side lou vres an d fan s for
+cabin et air circu lation
+C A B I N E T D I M E N S I O N S
+1050 mm (L) 	650 mm (B)
+900 mm (H)
+F R ON T 	SI D E
+M E C H A N I C A L
+Cabinet (L × B × H) 	1050 × 650 × 900 mm
+Battery modules 	4 × 4 80 × 4 82 × 137 mm
+Battery weight 	≈ 154 kg (4 × 38.5 kg )
+Battery access 	Front a ccess, ra ck-mount ed
+Inverter ingress rating 	IP65
+N O T E S
+1
+2
+3
+4
+Nom in al en ergy = n om in al voltage × rated capacity. Usable en ergy
+sh own at 80% DoD.
+Battery-side power is lim ited by th e in verter's 100 A battery cu rren t
+(≈ 5.1 kW at 51.2 V n om in al); PV can su pply th e balan ce of th e 6 kW
+ou tpu t.
+* Cycle life per Talis 5 m odu le specification at 80% DoD; su bject to th e
+Tou ch En ergy com m ercial warran ty term s.
+† Off-grid, an ti-islan din g an d residu al-cu rren t fu n ction s depen d
+on in verter con figu ration an d local grid approval.
+In stall in doors or in a sh eltered location ; battery m odu les are rated
+for in door u se.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 3/3
+
+-- 3 of 3 --
+
+
+
+==========================================================================================
+FILE: Touch_Talis5_51.2V_100Ah_Datasheet_1.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Talis S eries / Talis 5
+T A L I S S E R I E S · R A C K - M O U N T L F P B A T T E R Y
+Talis 5
+51.2 V · 100 Ah · 5.12 kWh LiFePO₄ Battery
+Module
+A 5.12 kWh rack-mount lithium iron
+phosphate battery module with a smart
+BMS, RS485 / CAN communication and
+front-access terminals. Designed for solar
+hybrid and backup systems in homes,
+shops, offices and small businesses.
+LiFe PO₄ 16S 1P 	Sm art BM S 	RS485 · C AN
+19" Rack M ou n t 	UN38.3 ce lls
+51.2 V
+N OM I N A L V OL T A G E
+100 Ah
+R A T E D C A PA C I T Y
+5.12 kWh
+N OM I N A L E N E R G Y
+≥2500
+C YC L E S @ 80 % DOD
+P R O D U C T H I G H L I G H T S
+Inverter compatible
+Works with residential single- and
+three-phase 48 V (low-voltage)
+hybrid inverters.
+Safe & reliable
+Lithium iron phosphate (LFP) cells
+tested to UN38.3 — thermally
+stable and cobalt-free.
+Easy installation
+19-inch rack-mount format with
+front handles, front terminals and
+plug-in communication.
+Smart BMS
+Advanced BMS manages charge
+and discharge power and protects
+every cell.
+Flexible expansion
+5.12 kWh modular design, scalable
+up to 16 modules (≈ 82 kWh) in
+parallel.
+Long life
+≥ 2,500 cycles at 80% DoD, 100 A
+continuous charge and discharge.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/2
+
+-- 1 of 2 --
+
+P R O D U C T D A T A S H E E T 	Talis S eries / Talis 5
+Technical Specifications 	Talis 5 · 51.2 V 100 Ah LFP Battery Module
+E L E C T R I C A L
+Nominal voltage 	51.2 V
+Rated capacity 	100 Ah (0.5C, 2 5 °C)
+Nominal energy 	5.12 kWh
+Chemistry 	Lit hium iron phospha t e (LiFePO₄)
+Cell & configuration 	3.2 V 100 Ah · 16S 1P
+Cycle life 	≥ 2 ,500 cycles @ 1C, 80% DoD*
+Monthly self-discharge 	< 3%
+C H A R G E & D I S C H A R G E
+Charge voltage 	54 .7 ± 0.2 V
+Charge method 	0.2 C t o 57 .6 V, t hen 58.4 V t o
+0.02 C cut -off
+S tandard charge current 2 0 A
+Max. charge current 	100 A
+Continuous discharge
+current
+100 A
+Discharge cut-off voltage 4 4 V
+Charge efficiency 	100% @ 0.2 C
+Discharge efficiency 	96 – 99% @ 1C
+C O M M U N I C A T I O N & S Y S T E M
+Communication 	RS4 85 / CAN (Mod bus for
+pa ra llel opera t ion)
+Compatible inverters 	Growa t t , Deye, Good We, Sofa r
+a nd ot her 4 8 V (LV) invert ers
+S calability 	Up t o 16 mod ules in pa ra llel (≈
+82 kWh)
+M E C H A N I C A L
+Enclosure 	Aluminium + GF nylon
+Dimensions (D × W × H) 	4 80 × 4 82 × 137 mm
+Weight 	≈ 38.5 kg
+Installation 	19-inch ra ck mount
+Environment 	Ind oor
+E N V I R O N M E N T A L
+Operating temperature 	0 t o 55 °C (32 t o 131 °F)
+Relative humidity 	5 – 95%, non-cond ensing
+P R O T E C T I O N
+BMS protections 	Over / und er-volt a g e, over-
+cha rg e a nd over-d ischa rg e
+current , cha rg e-current
+limit ing , short circuit , overloa d
+D I M E N S I O N S
+482 mm (W) 	480 mm (D)
+137 mm (H)
+FR ONT 	S IDE
+F R O N T P A N E L
+Power terminals 	Positive / negative DC terminals
+with insulating covers
+DC breaker 	Module isolation breaker
+RS485 / CAN ×3 	Two link ports for parallel modules,
+one port to the inverter
+RUN · ALARM · SOC S tatus LEDs and 4-bar state-of-
+charge indicator
+Reset 	BMS reset / wake-up button
+Handles 	Front handles and 19-inch rack-
+mount ears
+N O T E S
+Nom in al en ergy = n om in al voltage × rated capacity.
+* Cycle life su bject to th e Tou ch En ergy com m ercial warran ty term s
+an d operatin g con dition s.
+Use on ly with a com patible in verter / ch arger an d with in th e
+specified operatin g lim its. In stall in doors.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/2
+
+-- 2 of 2 --
+
+
+
+==========================================================================================
+FILE: Touch_Talis7_73.6V_100Ah_Datasheet_2.pdf
+==========================================================================================
+
+P R O D U C T D A T A S H E E T 	Talis S eries / Talis 7
+T A L I S S E R I E S · R A C K - M O U N T L F P B A T T E R Y
+Talis 7
+73.6 V · 100 Ah · 7.36 kWh LiFePO₄ Battery
+Module
+A 7.36 kWh rack-mount lithium iron
+phosphate battery module with a smart
+BMS, RS485 / CAN communication and
+front-access terminals. Designed for solar
+hybrid and backup systems in homes,
+shops, offices and small businesses.
+LiFe PO₄ 23S 1P 	Sm art BM S 	RS485 · C AN
+19" Rack M ou n t 	UN38.3 ce lls
+73.6 V
+N OM I N A L V OL T A G E
+100 Ah
+R A T E D C A PA C I T Y
+7.36 kWh
+N OM I N A L E N E R G Y
+≥2500
+C YC L E S @ 80 % DOD
+P R O D U C T H I G H L I G H T S
+Inverter compatible
+For hybrid inverters with a 63–84 V
+battery input; compatibility
+confirmed per project.
+Safe & reliable
+Lithium iron phosphate (LFP) cells
+tested to UN38.3 — thermally
+stable and cobalt-free.
+Easy installation
+19-inch rack-mount format with
+front handles, front terminals and
+plug-in communication.
+Smart BMS
+Advanced BMS manages charge
+and discharge power and protects
+every cell.
+Compact single module
+7.36 kWh in one 19-inch module —
+a compact, standalone high-
+voltage battery.
+Long life
+≥ 2,500 cycles at 80% DoD, 100 A
+continuous charge and discharge.
+M A D E F O R H O M E S & S M A L L B U S I N E S S E S
+Hom es & villas 	S hops & showroom s 	S m all offices 	Godowns &
+warehouses
+Clinics & salons
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 1/2
+
+-- 1 of 2 --
+
+P R O D U C T D A T A S H E E T 	Talis S eries / Talis 7
+Technical Specifications 	Talis 7 · 73.6 V 100 Ah LFP Battery Module
+E L E C T R I C A L
+Nominal voltage 	7 3.6 V
+Rated capacity 	100 Ah (0.5C, 2 5 °C)
+Nominal energy 	7 .36 kWh
+Chemistry 	Lit hium iron phospha t e (LiFePO₄)
+Cell & configuration 	3.2 V 100 Ah · 2 3S 1P
+Cycle life 	≥ 2 ,500 cycles @ 1C, 80% DoD*
+Monthly self-discharge 	< 3%
+C H A R G E & D I S C H A R G E
+Charge voltage 	7 8.2 ± 0.2 V
+Charge method 	0.2 C t o 82 .8 V, t hen 83.95 V t o
+0.02 C cut -off
+S tandard charge current 2 0 A
+Max. charge current 	100 A
+Continuous discharge
+current
+100 A
+Discharge cut-off voltage 63 V
+Charge efficiency 	100% @ 0.2 C
+Discharge efficiency 	96 – 99% @ 1C
+C O M M U N I C A T I O N & S Y S T E M
+Communication 	RS4 85 / CAN
+Compatible inverters 	Invert ers wit h a 63 – 84 V
+ba t t ery input (confirm wit h
+T ouch Energ y)
+Configuration 	Sing le mod ule (no pa ra llel
+opera t ion)
+M E C H A N I C A L
+Enclosure 	Aluminium + GF nylon
+Dimensions (D × W × H) 	650 × 4 82 × 137 mm
+Weight 	≈ 55 kg
+Installation 	19-inch ra ck mount
+Environment 	Ind oor
+E N V I R O N M E N T A L
+Operating temperature 	0 t o 55 °C (32 t o 131 °F)
+Relative humidity 	5 – 95%, non-cond ensing
+P R O T E C T I O N
+BMS protections 	Over / und er-volt a g e, over-
+cha rg e a nd over-d ischa rg e
+current , cha rg e-current
+limit ing , short circuit , overloa d
+D I M E N S I O N S
+482 mm (W) 	650 mm (D)
+137 mm (H)
+FR ONT 	S IDE
+F R O N T P A N E L
+DC power connector Pre-wired high-current plug-in DC
+connector
+DC breaker 	Module isolation breaker
+RS485 / CAN 	Communication port to inverter /
+system controller
+Handles 	Front handles and 19-inch rack-
+mount ears
+N O T E S
+Nom in al en ergy = n om in al voltage × rated capacity.
+* Cycle life su bject to th e Tou ch En ergy com m ercial warran ty term s
+an d operatin g con dition s.
+Use on ly with a com patible in verter / ch arger an d with in th e
+specified operatin g lim its. In stall in doors.
+Tou ch En ergy reserves th e righ t to ch an ge specification s with ou t
+prior n otice.
+ISO 9001:2015 ISO 14001:2015 CPCB REGISTERED PRODUCER · BWM RULES 2022
+Touch Energy Technologies Pvt. Ltd. · N o. 70, Chi nna Veer ampatti nam Rd, Ar i yankuppam, Puducher r y 605 007 · www.touchener gy.i n 	Re v 1.0 · 09/2026 · 2/2
+
+-- 2 of 2 --
+

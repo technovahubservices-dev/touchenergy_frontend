@@ -61,7 +61,7 @@ function SearchOverlay({ isOpen, onClose }) {
           >
             <div className="search-overlay-inner">
               <div className="search-overlay-top">
-                <span>VOLTERRA SEARCH</span>
+                <span>Touch Energy SEARCH</span>
 
                 <button
                   type="button"
@@ -82,7 +82,7 @@ function SearchOverlay({ isOpen, onClose }) {
                   onChange={(event) =>
                     setQuery(event.target.value)
                   }
-                  placeholder="Search VOLTERRA..."
+                  placeholder="Search Touch Energy..."
                 />
 
                 {query && (
@@ -102,7 +102,7 @@ function SearchOverlay({ isOpen, onClose }) {
                   <span>
                     {query
                       ? "SEARCH RESULTS"
-                      : "EXPLORE VOLTERRA"}
+                      : "EXPLORE Touch Energy"}
                   </span>
 
                   <small>
@@ -159,3 +159,4 @@ function SearchOverlay({ isOpen, onClose }) {
 }
 
 export default SearchOverlay;
+

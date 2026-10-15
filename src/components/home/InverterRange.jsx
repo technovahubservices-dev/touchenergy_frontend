@@ -27,7 +27,7 @@ function InverterRange({ onAddToCart, cartItems }) {
             </h2>
 
             <p>
-              Explore the VOLTERRA range and find the power
+              Explore the Touch Energy range and find the power
               experience that fits your everyday life.
             </p>
           </div>
@@ -72,7 +72,7 @@ function InverterRange({ onAddToCart, cartItems }) {
                   <motion.img
                     src={product.image}
                     alt={product.name}
-                    whileHover={{ scale: 1.045, y: -8 }}
+                    whileHover={{ scale: 1, y: 0 }}
                     transition={{
                       duration: 0.5,
                       ease: [0.22, 1, 0.36, 1],
@@ -103,7 +103,7 @@ function InverterRange({ onAddToCart, cartItems }) {
                       <small>FROM</small>
 
                       <span>
-                        ₹{product.price.toLocaleString("en-IN")}
+                        {typeof product.price === "number" ? `₹${product.price.toLocaleString("en-IN")}` : "Request a Quote"}
                       </span>
                     </div>
 
@@ -141,28 +141,16 @@ function InverterRange({ onAddToCart, cartItems }) {
             );
           })}
         </div>
-
-        <motion.div
-          className="inverter-range-footer"
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <span>
-            Not sure which inverter fits your home?
-          </span>
-
-          <a href="#find-your-inverter">
-            Find your inverter
-            <ArrowUpRight size={16} />
-          </a>
-        </motion.div>
       </div>
     </section>
   );
 }
 
 export default InverterRange;
+
+
+
+
 
 
 

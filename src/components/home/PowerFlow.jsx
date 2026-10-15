@@ -9,7 +9,7 @@ const steps = [
   },
   {
     number: "02",
-    title: "VOLTERRA",
+    title: "Touch Energy",
     text: "The inverter manages the transition.",
   },
   {
@@ -44,7 +44,7 @@ function PowerFlow() {
             </h2>
 
             <p>
-              When the grid goes quiet, VOLTERRA helps keep
+              When the grid goes quiet, Touch Energy helps keep
               everyday life powered.
             </p>
           </div>
@@ -128,4 +128,5 @@ function PowerFlow() {
 }
 
 export default PowerFlow;
+
 
